@@ -6,7 +6,7 @@ g={"nama":"amran","umur":"18"}
 h={"meja","kursi",1}
 #tuple
 b=("bola","sepatu",5,5,5,5,1.2)
-for s in (r,g,h,b):
+for s in r,g,h,b:
     print(s)
 print("===========peng update value===========")
 print("===========list============")
